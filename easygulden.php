@@ -91,7 +91,7 @@ class Gulden {
      * @param string $proto
      * @param string $url
      */
-    function __construct($username, $password, $host = 'localhost', $port = 8332, $url = null) {
+    function __construct($username, $password, $host = 'localhost', $port = 9232, $url = null) {
         $this->username      = $username;
         $this->password      = $password;
         $this->host          = $host;
